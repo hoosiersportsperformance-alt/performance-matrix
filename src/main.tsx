@@ -1,8 +1,7 @@
-import './index.css';
+import './index.css';   // Load Tailwind globally
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './index.css';   // <<<<<< CRITICAL LINE — loads Tailwind
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
